@@ -1,0 +1,11 @@
+{
+	"install_guide_template":
+	{
+		"inputs":
+		[
+			{"name":"figfile", "kind":"optional", "type":[["filepath=*.fig"], ["matlabpath=*.fig"], ["char"]]},
+			{"name":"mfile", "kind":"optional", "type":[["filepath=*.m"], ["matlabpath=*.m"], ["char"]]},
+			{"name":"template_name", "kind":"optional", "type":["char"]}
+		]
+	}
+}
