@@ -14,7 +14,7 @@ A GUI template is included under the template_examples folder. More templates ma
 # Usage
 
 Example code
-```
+```matlab
 % myTemplate.m and myTemplate.fig originally generated with GUIDE and customized by the user
 
 add_guide_template('myTemplate.m','myTemplate.fig','My custom template');
@@ -23,7 +23,7 @@ The template name can be specified in the input dialog
 ![Template name input dialog](/doc/template_name_input.PNG?raw=true "Template name input dialog")
 
 Once installed, the template will show up in the template selector that is displayed when starting the GUIDE tool
-```
+```matlab
 % Run GUIDE to display the installed templates
 guide
 ```
@@ -31,13 +31,13 @@ guide
 
 The function can also be called without specifying the source files. In this case a file selection dialog will prompt the user for the files.
 
-```
+```matlab
 add_guide_template
 ```
 
 Additional options are explained in the function help
 
-```
+```matlab
 help add_guide_template
 ```
 
